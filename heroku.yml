@@ -1,0 +1,6 @@
+# File telling heroku how to build the container.
+
+# This line basically tells it to build the image from the included dockerfile
+build:
+  docker:
+    web: Dockerfile
