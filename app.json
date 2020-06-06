@@ -1,4 +1,5 @@
 {
+  "repository": "https://github.com/ZacharySchaffter/django-docker-heroku-test",
   "addons": ["heroku-postgresql:hobby-dev"],
   "environments": {
     "review": {
