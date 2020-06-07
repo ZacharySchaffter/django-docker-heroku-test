@@ -6,5 +6,8 @@
       "addons": ["heroku-postgresql:hobby-dev"]
     }
   },
+  "scripts": {
+    "postdeploy": "python hello_django/manage.py makemigrations; python hello_django/manage.py migrate;"
+  },
   "stack": "container"
 }
